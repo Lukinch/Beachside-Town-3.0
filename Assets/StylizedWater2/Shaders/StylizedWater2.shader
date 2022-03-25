@@ -147,7 +147,7 @@ Shader "Universal Render Pipeline/FX/Stylized Water 2"
 
 			#pragma multi_compile_instancing
 			/* start UnityFog */
-			#pragma multi_compile_fog
+//			#pragma multi_compile_fog
 			/* end UnityFog */
 
 			#pragma target 3.0

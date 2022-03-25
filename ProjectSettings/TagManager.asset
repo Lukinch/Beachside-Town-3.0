@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - LampLight
+  - CinemachineTarget
+  - FireLight
+  - FireVFX
+  - FireParticleVFX
+  - FireSmokeVFX
   layers:
   - Default
   - TransparentFX
