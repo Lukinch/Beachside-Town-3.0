@@ -1,4 +1,4 @@
-/* Configuration: UnityFog */
+/* Configuration: Azure */
 
 //Set this to value to 1 through Shader.SetGlobalFloat to temporarily disable fog for water
 float _WaterFogDisabled;
@@ -6,7 +6,7 @@ float _WaterFogDisabled;
 //Authors of third-party fog solutions can reach out to have their method integrated here
 
 /* start UnityFog */
-#define UnityFog
+//#define UnityFog
 /* end UnityFog */
 
 /* start Colorful */
@@ -18,7 +18,7 @@ float _WaterFogDisabled;
 /* end Enviro */
 
 /* start Azure */
-//#define Azure
+#define Azure
 /* end Azure */
 
 /* start AtmosphericHeightFog */
