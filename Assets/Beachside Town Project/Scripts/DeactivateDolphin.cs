@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class DeactivateDolphin : MonoBehaviour
 {
-    private void Start() {
+    [SerializeField] private float deactivationPoint = 500f;
 
-    }
-    // Update is called once per frame
     void Update()
     {
         Vector3 position = transform.position;
         if (
-            position.x > 300 ||
-            position.x < -300 ||
-            position.z > 300 ||
-            position.z < -300
+            position.x > deactivationPoint ||
+            position.x < -deactivationPoint ||
+            position.z > deactivationPoint ||
+            position.z < -deactivationPoint
         ) {
             gameObject.SetActive(false);
         }
