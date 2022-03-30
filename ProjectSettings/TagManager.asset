@@ -10,6 +10,8 @@ TagManager:
   - FireVFX
   - FireParticleVFX
   - FireSmokeVFX
+  - Grass
+  - Water
   layers:
   - Default
   - TransparentFX
