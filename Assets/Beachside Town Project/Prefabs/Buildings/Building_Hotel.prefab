@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 2925708345154257502}
   - component: {fileID: 2248967095442198011}
   - component: {fileID: 4094080893206870321}
-  - component: {fileID: 3971213877554258711}
+  - component: {fileID: 6982947148817619352}
   m_Layer: 0
   m_Name: Building_Hotel
   m_TagString: Untagged
@@ -518,8 +518,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3971213877554258711
-MeshCollider:
+--- !u!65 &6982947148817619352
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -528,10 +528,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7665085958851925585, guid: 68bc1e1e95b496249b9dd0f1c74d19bc, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.2116423, y: 4.7079654, z: 8.803434}
+  m_Center: {x: -0.0011951671, y: -0.21288928, z: 4.392802}
 --- !u!1 &2663261746245150938
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,7 +542,6 @@ GameObject:
   - component: {fileID: 3255623230870892478}
   - component: {fileID: 8338717357649120156}
   - component: {fileID: 8988288054638301167}
-  - component: {fileID: 7475845600283351427}
   m_Layer: 0
   m_Name: HouseHotel_Window8
   m_TagString: Untagged
@@ -614,19 +612,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7475845600283351427
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2663261746245150938}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754177, y: 1.2934394, z: 0.13886587}
-  m_Center: {x: -0.14431852, y: -0.27127886, z: 0.04296398}
 --- !u!1 &2986654857828644962
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +623,6 @@ GameObject:
   - component: {fileID: 6032446237809408433}
   - component: {fileID: 861401168856030047}
   - component: {fileID: 6678227250729860865}
-  - component: {fileID: 1541008683302313217}
   m_Layer: 0
   m_Name: Pillar2
   m_TagString: Untagged
@@ -709,20 +693,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1541008683302313217
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2986654857828644962}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4877693981621173391, guid: 68bc1e1e95b496249b9dd0f1c74d19bc, type: 3}
 --- !u!1 &3207280823617643085
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +785,6 @@ GameObject:
   - component: {fileID: 9117365653467492561}
   - component: {fileID: 1185400508758460375}
   - component: {fileID: 3522971773902561908}
-  - component: {fileID: 6984963780821493116}
   m_Layer: 0
   m_Name: HouseHotel_Window10
   m_TagString: Untagged
@@ -886,19 +855,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6984963780821493116
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3323251497064622735}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754207, y: 1.2934394, z: 0.13886595}
-  m_Center: {x: -0.14431852, y: -0.27127886, z: 0.0429635}
 --- !u!1 &4082569637461756504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1028,6 @@ GameObject:
   - component: {fileID: 9218679118394294034}
   - component: {fileID: 7753081774166831302}
   - component: {fileID: 7960439301088241228}
-  - component: {fileID: 4091229460035274310}
   m_Layer: 0
   m_Name: HouseHotel_Window26
   m_TagString: Untagged
@@ -1143,19 +1098,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4091229460035274310
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5004845940660973464}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754207, y: 1.2934394, z: 0.13886595}
-  m_Center: {x: -0.14431879, y: -0.27127862, z: 0.0429635}
 --- !u!1 &5180735455938457639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,7 +1352,6 @@ GameObject:
   - component: {fileID: 629914856596832681}
   - component: {fileID: 4816654923998337532}
   - component: {fileID: 4977951661796632932}
-  - component: {fileID: 2156627372761560013}
   m_Layer: 0
   m_Name: HouseHotel_Window1
   m_TagString: Untagged
@@ -1481,19 +1422,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2156627372761560013
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596838521253916888}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754207, y: 1.2934394, z: 0.13886595}
-  m_Center: {x: -0.1443182, y: -0.27127886, z: 0.0429635}
 --- !u!1 &5608886375776251893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,7 +1514,6 @@ GameObject:
   - component: {fileID: 6094321197786966828}
   - component: {fileID: 4612165276779038429}
   - component: {fileID: 5344801564095948516}
-  - component: {fileID: 5123839344193842151}
   m_Layer: 0
   m_Name: HouseHotel_Window18
   m_TagString: Untagged
@@ -1657,19 +1584,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5123839344193842151
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6249006775213473380}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754207, y: 1.2934397, z: 0.13886592}
-  m_Center: {x: -0.14431857, y: -0.27127892, z: 0.04296349}
 --- !u!1 &6390028962087016378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,7 +1676,6 @@ GameObject:
   - component: {fileID: 5444081563872600653}
   - component: {fileID: 2447407759819916377}
   - component: {fileID: 7781197868515786538}
-  - component: {fileID: 1230262349197480639}
   m_Layer: 0
   m_Name: Pillar1
   m_TagString: Untagged
@@ -1833,20 +1746,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1230262349197480639
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6471396834073433797}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5784990932006127398, guid: 68bc1e1e95b496249b9dd0f1c74d19bc, type: 3}
 --- !u!1 &6538411857931970367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,7 +1757,6 @@ GameObject:
   - component: {fileID: 1398043146098481037}
   - component: {fileID: 1847283593719451244}
   - component: {fileID: 2025053365138681725}
-  - component: {fileID: 842654049974911734}
   m_Layer: 0
   m_Name: HouseHotel_Door
   m_TagString: Untagged
@@ -1929,20 +1827,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &842654049974911734
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6538411857931970367}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 840253501476643125, guid: 68bc1e1e95b496249b9dd0f1c74d19bc, type: 3}
 --- !u!1 &6559345602066452507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,7 +2000,6 @@ GameObject:
   - component: {fileID: 6703604132058056115}
   - component: {fileID: 8979447654839553152}
   - component: {fileID: 5413839093372587840}
-  - component: {fileID: 5142948410886163662}
   m_Layer: 0
   m_Name: HouseHotel_Window19
   m_TagString: Untagged
@@ -2187,19 +2070,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5142948410886163662
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7624495227382271540}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754207, y: 1.2934397, z: 0.13886592}
-  m_Center: {x: -0.14431822, y: -0.27127892, z: 0.04296349}
 --- !u!1 &7719989055425431795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,7 +2405,6 @@ GameObject:
   - component: {fileID: 5251138526467390033}
   - component: {fileID: 8621549622525638108}
   - component: {fileID: 5103113085288081888}
-  - component: {fileID: 4857858994528551297}
   m_Layer: 0
   m_Name: HouseHotel_Signs
   m_TagString: Untagged
@@ -2606,20 +2475,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4857858994528551297
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8739789717845265748}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5150989910875547723, guid: 68bc1e1e95b496249b9dd0f1c74d19bc, type: 3}
 --- !u!1 &8872324143881230900
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,7 +2486,6 @@ GameObject:
   - component: {fileID: 6790719396908841910}
   - component: {fileID: 763027596571736102}
   - component: {fileID: 3713431167629655556}
-  - component: {fileID: 6575856497238630429}
   m_Layer: 0
   m_Name: HouseHotel_Window17
   m_TagString: Untagged
@@ -2702,19 +2556,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6575856497238630429
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8872324143881230900}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754207, y: 1.2934397, z: 0.13886592}
-  m_Center: {x: -0.14431882, y: -0.27127892, z: 0.04296349}
 --- !u!1 &9020288090388078575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2726,7 +2567,6 @@ GameObject:
   - component: {fileID: 1140913710418136461}
   - component: {fileID: 4807444451912189601}
   - component: {fileID: 2127352461566326350}
-  - component: {fileID: 4241048643016338633}
   m_Layer: 0
   m_Name: HouseHotel_Window9
   m_TagString: Untagged
@@ -2797,16 +2637,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4241048643016338633
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9020288090388078575}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82754177, y: 1.2934394, z: 0.13886587}
-  m_Center: {x: -0.14431852, y: -0.27127886, z: 0.04296398}
