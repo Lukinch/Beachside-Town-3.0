@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 2925708345154257502}
   - component: {fileID: 2248967095442198011}
   - component: {fileID: 4094080893206870321}
-  - component: {fileID: 6982947148817619352}
+  - component: {fileID: 4529852311668711612}
   m_Layer: 0
   m_Name: Building_Hotel
   m_TagString: Untagged
@@ -518,7 +518,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6982947148817619352
+--- !u!65 &4529852311668711612
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -529,8 +529,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2116423, y: 4.7079654, z: 8.803434}
-  m_Center: {x: -0.0011951671, y: -0.21288928, z: 4.392802}
+  m_Size: {x: 3.2116404, y: 4.7079644, z: 8.803433}
+  m_Center: {x: -0.0011946559, y: -0.21288781, z: 4.3928037}
 --- !u!1 &2663261746245150938
 GameObject:
   m_ObjectHideFlags: 0
